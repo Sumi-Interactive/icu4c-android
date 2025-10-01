@@ -1,0 +1,8 @@
+[package]
+name = "icu_builder"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+cc = "1.0"

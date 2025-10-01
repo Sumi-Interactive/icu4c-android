@@ -138,7 +138,7 @@ local_cflags += -O3 -fvisibility=hidden
 #
 
 include $(CLEAR_VARS)
-LOCAL_SDK_VERSION := 9
+LOCAL_SDK_VERSION := 21
 #LOCAL_RTTI_FLAG := -frtti
 #LOCAL_CPPFLAGS	:= -frtti
 LOCAL_NDK_STL_VARIANT := stlport_static
@@ -261,7 +261,7 @@ local_cflags += -O3 -fvisibility=hidden
 #
 
 include $(CLEAR_VARS)
-LOCAL_SDK_VERSION := 9
+LOCAL_SDK_VERSION := 21
 LOCAL_NDK_STL_VARIANT := stlport_static
 LOCAL_SRC_FILES += $(src_files)
 LOCAL_C_INCLUDES += $(c_includes)
